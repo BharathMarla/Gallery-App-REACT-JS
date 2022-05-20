@@ -1,0 +1,48 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+.sub-container {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.top-img-container {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-image-style {
+  width: 90%;
+  margin: 10px;
+}
+.unlist-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'BreeSerif';
+}
+.description {
+  font-size: 18px;
+  font-family: 'Caveat';
+}
